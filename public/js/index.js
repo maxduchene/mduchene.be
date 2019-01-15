@@ -23,14 +23,6 @@ function initPage(){
         loadContent("CV");
         changeTitle("CV");
     });
-
-    document.getElementById("contact").addEventListener("click", function (event) {
-        event.preventDefault();
-        loadContent("contact");
-        changeTitle("Contact");
-    })
-
-
 }
 
 function loadContent(page) {
