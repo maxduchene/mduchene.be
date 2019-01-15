@@ -1,7 +1,7 @@
 body{
-    margin: 0 auto;
-    max-width: 70%;
     font-family: 'Open Sans', sans-serif;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 header{
@@ -15,7 +15,7 @@ header h1{
 }
 
 header a{
-    margin: 0 0.3em
+    margin: 0 0.3em;
 }
 
 a{
@@ -27,9 +27,13 @@ a:link, a:visited{
     color:blue;
 }
 
-main{
-    max-width: 80%;
+main {
+    max-width: 60%;
     margin: 0 auto;
+}
+
+h2{
+    text-align: center;
 }
 
 footer{
