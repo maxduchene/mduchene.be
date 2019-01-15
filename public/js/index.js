@@ -37,6 +37,6 @@ function loadContent(page) {
 }
 
 function changeTitle(page){
-    let title = page + " | Maxime Duchene";
+    let title = page + " | Maxime Duchêne";
     document.getElementById("title").innerHTML = title;
 }
