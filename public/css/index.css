@@ -18,6 +18,11 @@ header a{
     margin: 0 0.3em;
 }
 
+footer {
+    margin-bottom: 10px;
+    font-size: smaller;
+}
+
 a{
     text-decoration: none;
     outline: 0;
@@ -34,6 +39,10 @@ main {
 
 h2{
     text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
 }
 
 footer{
@@ -68,5 +77,14 @@ li {
 }
 
 #CV-info p{
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lang {
     text-align: center;
 }
