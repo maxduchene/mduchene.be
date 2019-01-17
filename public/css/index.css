@@ -33,7 +33,7 @@ a:link, a:visited{
 }
 
 main {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -81,10 +81,6 @@ li {
     justify-content: space-between;
 }
 
-#CV-info {
-    text-align: center;
-}
-
 #go-top-button {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -103,4 +99,13 @@ li {
 
 #go-top-button:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.preuves {
+    text-align: center;
 }
