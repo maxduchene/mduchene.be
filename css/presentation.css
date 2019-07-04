@@ -1,0 +1,40 @@
+#presentation {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#summary {
+  padding: 4rem;
+}
+
+#summary h1 {
+  color: var(--humanima-color);
+  
+  font-size: 4rem;
+  font-family: angelina;
+  font-weight: normal;
+}
+
+#summary p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+#photo-memb img {
+  display: block;
+  
+  width: 602px;
+}
+
+@media only screen and (max-width: 960px) {
+  #presentation {
+    flex-direction: column;
+  }
+
+  #photo-memb img {
+    width: 100%;
+  }
+}

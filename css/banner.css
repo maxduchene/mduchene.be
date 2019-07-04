@@ -1,0 +1,144 @@
+#banner {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  background-image: url("../img/motif_animaux.jpg");
+  background-repeat: repeat;
+  background-size: 17rem;
+}
+
+.banner-containers {
+  background-color: white;
+}
+
+#infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 2.5rem 1rem;
+  padding: 2rem;
+  
+  font-family: 'Quicksand';
+}
+
+#infos h1 {
+  margin-bottom: .4rem;
+  
+  color: var(--humanima-color);
+  
+  font-size: 1.3rem;
+}
+
+#infos span {
+  font-size: 1.3rem;
+}
+
+#banner-infos-separator {
+  color: var(--gray-color);
+}
+
+#banner-social-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  margin: 2.5rem 7rem 2.5rem 1rem;
+}
+
+#banner-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 1rem 2rem;
+}
+
+#banner-social h1 {
+  padding-right: 3rem;
+  
+  font-size: 1.3rem;
+  font-family: 'Quicksand';
+}
+
+#banner-social img {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 1rem;
+}
+
+#contact h1 {
+  font-size: 1.3rem;
+  font-family: 'Quicksand';
+}
+
+#contact form {
+  display: flex;
+  justify-content: center;
+}
+
+#contact input {
+  /* Prevent mobile custom css for inputs */
+  -webkit-appearance: none;
+}
+
+#contact input[type=email] {
+  margin-right: -10px;
+  padding: .3rem 1rem;
+  box-sizing: border-box;
+  
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  
+  font-family: 'Quicksand';
+}
+
+#contact input[type=submit] {
+  
+  padding: .3rem 1rem;
+  box-sizing: border-box;
+  
+  color: white;
+  background-color: var(--gray-color);
+  border: 1px solid var(--gray-color);
+  border-radius: 7px;
+
+  font-family: 'Quicksand';
+}
+
+@media only screen and (max-width: 960px) {
+   #banner {
+     justify-content: center;
+     margin: 0 auto;
+   }
+
+   #infos,
+   #banner-social-contact {
+     margin: 2.5rem 1rem;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+  #contact input[type=email] {
+    /* display: none; */
+    width: 60%;
+    font-size: 1.4rem;
+  }
+
+  #contact input[type=submit] {
+    font-size: 1.4rem;
+  }
+}

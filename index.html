@@ -1,31 +1,222 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title id="title">Accueil | Maxime Duchêne</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <script src="js/index.js"></script>
+<!doctype html>
+<html>
+<head>  
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <title>HumAnima ASBL - du coeur, de l'humain, de l'animal</title>
+  <link rel="shortcut icon" type="img/png" href="img/favicon.png" />
+  <link 
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" 
+      rel="stylesheet"
+  />
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link href="css/header.css" rel="stylesheet" type="text/css" />
+  <link href="css/banner.css" rel="stylesheet" type="text/css" />
+  <link href="css/presentation.css" rel="stylesheet" type="text/css" />
+  <link href="css/help.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
-    <header>
-        <h1>Maxime Duchêne</h1>
-        <nav>
-            <a id="accueil" href="accueil">Accueil</a>|
-            <a id="portfolio" href="portfolio">Portfolio</a>|
-            <a id="CV" href="CV">CV</a>
-        </nav>
-    </header>
+  <header>
+    <img 
+        id="header-humanima-logo" 
+        src="img/logo_humanima.svg" 
+        alt="humanima_logo"
+    />  
+    
+    <nav id="header-nav">
+      <a href="/">
+        <img id="logo-home" src="img/accueil.svg" alt="home" />
+      </a>
+      <a href="association.html">L'ASSOCIATION</a>
+      <a href="#" hidden>NOUS AIDER</a>
+      <a href="mailto:info@humanima.be">CONTACT</a>
+      <a href="#" hidden>FAIRE UN DON</a>
+    </nav>
 
-    <hr>
+    <nav id="lang-choice">
+      <a href="#">FR</a>
+      <a href="#">NL</a>
+      <a href="#">EN</a>
+    </nav>
+  </header>
 
-    <main id="main">
+  <section id="banner">
+    <div id="infos" class="banner-containers">
+      <h1>SIÈGE SOCIAL D'HUMANIMA :</h1>
+      <span>Clos Raymond Costard 5</span>
+      <span>1340 Ottignies</span>
+      <span id="banner-infos-separator">..........................................................................</span>
+      <h1>HORAIRES</h1>
+      <span>Pas d'horaires pour le moment</span>
+    </div>
+      
+    <div id="banner-social-contact">
+      
+      <div id="banner-social" class="banner-containers">
+        <h1>SUIVEZ NOUS SUR</h1>
+        <a href="https://www.facebook.com/humanimaasbl/" target="_blank">
+          <img class="logo-socials" src="img/icone_FB.svg" />
+        </a>
+        
+        <a href="https://www.instagram.com/humanimaasbl/" target="_blank">
+          <img class="logo-socials" src="img/icone_IG.svg" />
+        </a>
+        
+        <a href="https://www.youtube.com/channel/UCk7ibn9frbGBaZSYMhpI17A" target="_blank">
+          <img class="logo-socials" src="img/icone_YT.svg" />
+        </a>
+      </div>
 
-    </main>
+      <div id="contact" class="banner-containers">
+        <h1>RESTONS EN CONTACT - NEWSLETTER</h1>
+        <!-- Begin Mailchimp Signup Form -->
+        <form action="https://gmail.us3.list-manage.com/subscribe/post?u=0286b33f37b686a8d7e535f33&amp;id=bfbcf3225f" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <input type="email" value="" name="EMAIL" placeholder="votre e-mail" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_0286b33f37b686a8d7e535f33_bfbcf3225f" tabindex="-1" value="">
+          </div>
+          <input type="submit" value="M'INSCRIRE" name="subscribe">
+        </form>
+        <!--End mc_embed_signup-->
+      </div>
+    </div>
+  
+  </section>
 
-    <hr>
+  <section id="presentation">
+    <article id="summary">
+      <h1>du coeur, de l'humain, de l'animal</h1>
+      <p>Aidez-nous à rendre le monde meilleur pour les animaux et les humains. </p>
+      <p>Nous sommes 6 rêveuses actives dans la protection animale et nous sommes convaincues qu'avec notre expérience, 
+      notre enthousiasme, de la bienveillance et un accent mis sur la prévention, nous pouvons faire la différence.</p>
+      <p>Mais pas sans vous !</p>
+    </article>
+      
+    <aside id="photo-memb">
+      <img src="img/membres_fondateurs.jpg" alt="membres_fondateurs" />
+    </aside>
+  </section>
 
-    <footer>N'hésitez pas à me <a target="_blank" href="https://github.com/maxduchene/maxduchene.github.io/issues">signaler</a> d'éventuels bugs</footer>
+  <section id="help">
+    <h1>NOUS AIDER</h1>
+    <div id="help-content">
+      <h2>BÉNÉVOLAT</h2>
+      <p>Vous voulez apporter votre pierre à l’édifice ? Vous souhaitez offrir une seconde chance à des êtres moins favorisés ? Vous voulez connaître le bonheur 
+      lié à la sensation de faire bouger les choses, le bonheur lié à la construction d’un monde meilleur ? Le bénévolat est fait pour vous et se décline de 
+      différentes manières afin de permettre à tout un chacun de trouver sa voie.</p>
+      <p>Vous trouverez ci-dessous le détail des profils que nous recherchons, répartis en deux temps :</p>
+      <p>Dans l’immédiat :</p>
+      <ul>
+        <li>Famille d’accueil : nous sommes en recherche constante de familles d’accueil pour accueillir, 
+        soigner et mettre en ordre sanitaire les animaux pris en charge par l’ASBL. HumAnima assure les frais 
+        vétérinaires et se charge de vous fournir tout le matériel dont vous aurez besoin pour vous occuper au 
+        mieux de vos protégés. Lorsqu’ils sont prêts à l’adoption, il vous incombe alors de leur trouver la 
+        famille idéale. Les responsables sont évidemment à votre disposition pour vous aider dans cette tâche 
+        et pour vous aider à laisser partir vos compagnons dans leur nouvelle famille. Être famille d’accueil 
+        nécessite d’avoir du temps pour s’occuper chaque jour des animaux présents chez soi. Vous pouvez être 
+        famille d’accueil pour chats, pour chiens, pour petits mammifères (lapins, cochons d’Inde, ...) voire 
+        même pour tous si vos conditions de vie et votre environnement le permettent.</li>
+        <li>Aide aux « trappages » : dans le jargon de la protection animale, le trappage est l’action d’attraper 
+        un animal (errant ou non) grâce à une trappe ou un équivalent afin de le mettre en sécurité. Si vous 
+        savez instinctivement vous y prendre pour attraper des animaux dans la rue ou dans des lieux insolites, 
+        votre aide pourrait nous être précieuse. La patience est évidemment un des maîtres mots, puisque l’animal 
+        à trapper sait se faire désirer. La discrétion est également importante pour ne pas l’effrayer.</li>
+      </ul>
+      <p>D’ici quelques mois :</p>
+      <ul>
+        <li>Pension sociale : en devenant bénévole chez HumAnima, vous nous aiderez à venir en aide aux animaux 
+        dans le besoin mais pas seulement. Dans notre optique, l’animal est indissociable de l’humain. C’est la 
+        raison pour laquelle l’ASBL va créer une pension sociale, afin de permettre aux personnes aux revenus 
+        moins élevés, de mettre leur animal à l’abri si elles doivent être hospitalisées ou s’absenter quelques 
+        jours tout en sachant que leur compagnon est en sécurité chez des personnes de confiance. Vous pouvez 
+        devenir cette personne de confiance en accueillant un compagnon pour un laps de temps plus ou moins court.</li>
+        <li>Bénévole au refuge : les animaux présents au refuge ont également besoin de compagnie et qu’on s’occupe 
+        d’eux comme ils le méritent. C’est dans ce but que nous recherchons des bénévoles pour le refuge. Il faut alors 
+        nettoyer l’espace réservé aux différents animaux mais également les nourrir et les soigner quand c’est nécessaire. 
+        Être bénévole au refuge demande d’avoir quelques heures de libre dans son planning un matin ou un soir. Nous 
+        n’imposons pas de rythme particulier, vous pouvez venir quand votre planning le permet, pour autant que nous 
+        soyons prévenus. Comme pour les familles d’accueil, vous pouvez vous occuper des chats, des chiens ou des deux 
+        si vous vous sentez à l’aise avec les deux espèces. </li>
+      </ul>
+
+      <h2>AIDE FINANCIÈRE</h2>
+      <p>Comme toute ASBL, nous ne pouvons pas fonctionner sans votre aide. HumAnima vit grâce aux dons qu’elle reçoit. 
+      Vous pouvez choisir de nous aider ponctuellement ou de façon plus régulière, en devenant membre et/ou parrain.</p>
+      <ul>
+        <li>Devenir membre : HumAnima propose plusieurs affiliations possibles. Vous pouvez choisir de devenir membre 
+        adhérent en versant 25€ par an, membre solidaire en versant 50€ par an, membre de cœur en versant 75€ par an, 
+        membre bienfaiteur en versant 150€ par an ou membre d’honneur en versant 350€ par an. Vous avez aussi la possibilité, 
+        si vous avez la chance de bénéficier d’une notoriété appréciable, de mettre celle-ci au service d’HumAnima et de devenir 
+        le membre que nos statuts ont défini comme l’ange gardien de l’association.</li>
+        <li>Devenir parrain/marraine : lorsque vous adoptez chez HumAnima, vous payez 15€ de parrainage et vous devenez parrain 
+        d’un de nos protégés. Lorsque vous n’adoptez pas chez nous, vous pouvez choisir de devenir parrain ou marraine d’un des 
+        animaux présents au sein de l’association. Cela vous permet de tisser un lien avec un de nos pensionnaires et de recevoir 
+        de ses nouvelles régulièrement.</li>
+      </ul>
+
+      <h2>LEG VIA LE TESTAMENT</h2>
+      <p>Parce qu’il est encore possible d’aider les plus démunis alors même que nous ne sommes plus de ce monde, 
+      il est permis de léguer des biens, quels qu’ils soient (mobilier, immobilier, liquidités,… ) à une association, 
+      en le stipulant dans son testament.</p>
+      <p>Pour être certain que tout soit en ordre d’un point de vue légal, il est conseillé de rédiger ce souhait avec 
+      un notaire et pour ce faire, il faut disposer des  coordonnées complètes de l’association.</p>
+      <ul>
+        <li>HumAnima ASBL</li>
+        <li>Clos Raymond Costard 5, 1340 Ottignies</li>
+        <li>Numéro d’entreprise : 0723.481.527</li>
+      </ul>
+      <p>Sachez que tout don, aussi petit soit-il, compte pour nous.</p>
+    </div>
+  </section>
+
+  <footer>
+    <img id="footer-humanima-logo" src="img/logo_humanima_blanc.svg" alt="humanima_logo" />
+      
+    <div id="footer-nav-copyright">
+      <nav id="footer-nav">
+        <a href="#">L'ASSOCIATION</a>
+        <a href="#" hidden>NOUS AIDER</a>
+        <a href="#">CONTACT</a>
+      </nav>
+      <span>...........................................................................................</span>
+      <span id="copyright">Copyright Humanima 2019</span>
+    </div>
+
+    <div id="footer-social-newsletter">
+      <div id="footer-social">
+        <h1>SUIVEZ NOUS SUR</h1>
+        <a href="https://www.facebook.com/humanimaasbl/" target="_blank">
+          <img class="logo-socials" src="img/icone_FB_white.svg" />
+        </a>
+        
+        <a href="https://www.instagram.com/humanimaasbl/" target="_blank">
+          <img class="logo-socials" src="img/icone_IG_white.svg" />
+        </a>
+        
+        <a href="https://www.youtube.com/channel/UCk7ibn9frbGBaZSYMhpI17A" target="_blank">
+          <img class="logo-socials" src="img/icone_YT_white.svg" />
+        </a>
+      </div>
+
+      <div id="footer-newsletter">
+        <h1>RESTONS EN CONTACT - NEWSLETTER</h1>
+        <!-- Begin Mailchimp Signup Form -->
+        <form action="https://gmail.us3.list-manage.com/subscribe/post?u=0286b33f37b686a8d7e535f33&amp;id=bfbcf3225f" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <input type="email" value="" name="EMAIL" placeholder="votre e-mail" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_0286b33f37b686a8d7e535f33_bfbcf3225f" tabindex="-1" value="">
+          </div>
+          <input type="submit" value="M'INSCRIRE" name="subscribe">
+        </form>
+        <!--End mc_embed_signup-->
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

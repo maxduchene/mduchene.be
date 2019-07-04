@@ -1,0 +1,173 @@
+footer {
+  display: flex;
+  align-items: center;
+  
+  width: 100%;
+  padding: 1rem 7rem;
+  box-sizing: border-box;
+  
+  color: white;
+  background-color: var(--humanima-color);
+
+  font-family: 'Quicksand';
+}
+
+#footer-humanima-logo {
+  width: 70px;
+}
+
+#footer-nav-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-left: 5rem;
+}
+
+#footer-nav a {
+  margin: 0 .5rem;
+  
+  color: white;
+  text-decoration: none;
+  
+  font-size: 1.3rem;
+}
+
+#footer-nav a:visited {
+  color: white;
+}
+
+#copyright {
+  font-size: 1.3rem;
+}
+
+#footer-social-newsletter {
+  display: flex;
+  align-items: center;
+  
+  margin-left: auto;
+}
+
+#footer-social {
+  display: flex;
+  align-items: center;
+
+  margin-right: .4rem;
+  padding: 1rem;
+  
+  font-size: 1.4rem;
+}
+
+#footer-social h1 {
+  padding-right: 2rem;
+  
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+#footer-social img {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+#footer-social a {
+  margin: 0 0rem;
+}
+
+#footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-newsletter h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+#footer-newsletter form {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-newsletter input {
+  /* Prevent mobile custom css for inputs */
+  -webkit-appearance: none;
+}
+
+#footer-newsletter input[type=email] {
+  width: 60%;
+  margin-right: -10px;
+  padding: .3rem 1rem;
+  box-sizing: border-box;
+  
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  
+  font-family: 'Quicksand';
+}
+
+#footer-newsletter input[type=submit] {
+  
+  padding: .3rem 1rem;
+  box-sizing: border-box;
+
+  font-family: 'Quicksand';
+  
+  color: white;
+  background-color: var(--gray-color);
+  border: 1px solid var(--gray-color);
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 980px) {
+  #footer-social-newsletter {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  footer {
+    padding: .5rem 0 .5rem 1rem;
+  }
+
+  #footer-humanima-logo {
+    width: 50px;
+  }
+
+  #footer-nav-copyright {
+    margin-left: 1rem;
+  }
+
+  #footer-social-newsletter {
+    padding-right: .2rem;
+  }
+
+  #footer-social {
+    margin: 0;
+    padding: 1.2rem 0;
+  }
+
+  #footer-newsletter input[type=email] {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #footer-humanima-logo {
+    width: 40px;
+  }
+  
+  #footer-newsletter input[type=email] {
+    width: 60%;
+    font-size: 1.4rem;
+  }
+
+  #footer-newsletter input[type=submit] {
+    font-size: 1.4rem;
+  }
+}

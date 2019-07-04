@@ -1,111 +1,42 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    max-width: 70%;
-    margin: 0 auto;
+/* Import Angelina font */
+@font-face {
+  font-family: Angelina;
+  src: url(../fonts/angelina.TTF);
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+html {
+  /* Colorimetry variables */
+  --humanima-color: #a5285f;
+  --gray-color: #9b9696;
+
+  /* trick to make 1rem = 10px, which facilitate the usage of rem if you're used to px */
+  font-size: 62.5%; 
+
+  /* 
+    Prevent the automatic font-size change on mobiles
+    More info: https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust 
+  */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
-header h1{
-    margin-bottom: 0;
+body {
+  margin: 0em;
+    
+  font-family: Verdana, sans-serif;
 }
 
-header a{
-    margin: 0 0.3em;
+/* Tablets */
+@media only screen and (max-width: 960px) {
+  html {
+    font-size: 50%;
+  }
 }
 
-footer {
-    margin-bottom: 10px;
-    font-size: smaller;
-}
-
-a{
-    text-decoration: none;
-    outline: 0;
-}
-
-a:link, a:visited{
-    color:blue;
-}
-
-main {
-    max-width: 60%;
-    margin: 0 auto;
-}
-
-h2, h1{
-    text-align: center;
-}
-
-h3 {
-    text-decoration: underline;
-}
-
-footer{
-    text-align: center;
-}
-
-#table_acti {
-    margin: 0 auto;
-    width: 100%;
-    border-collapse: collapse;
-}
-
-tr:nth-child(odd) {background-color: #f0f0f0;}
-
-th{
-    font-size: 13px;
-}
-
-td{
-    text-align: left;
-    font-size: 13px;
-    vertical-align: top;
-    margin: auto 20px;
-}
-
-.heures{
-    text-align: center;
-}
-
-li {
-    margin: 6px auto;
-}
-
-#skills {
-    display: flex;
-    justify-content: space-between;
-}
-
-#go-top-button {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: gray; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-}
-
-#go-top-button:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-}
-
-p {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.preuves {
-    text-align: center;
+/* Mobiles */ 
+@media only screen and (max-width: 500px) {
+  html {
+      font-size: 37.5%;
+  }
 }
